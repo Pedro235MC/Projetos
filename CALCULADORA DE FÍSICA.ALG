@@ -10,6 +10,8 @@ dist, temp, temp1, temp2, temper, ace, veloc, cal, mass, laten, espec: real
 Inicio
 
 repita
+controle <- 0
+
 limpatela
 
 escreval ("_____________CALCULADORA DE FÍSICA________________")
@@ -91,9 +93,10 @@ leia (areaf)
                  leia (laten)
                   unimed<- "Cal"
                  resposta <- mass * laten
-          caso 3
-            controle <- 10
-          fimescolha
+              fimescolha
+        caso 3
+         controle <- 10
+        fimescolha
  
  
 fimescolha
@@ -101,6 +104,6 @@ fimescolha
 limpatela
 
  escreval ("Resposta: ", resposta, unimed)
- até (controle = 10)
+ ate (controle = 11)
 limpatela
 Fimalgoritmo
