@@ -3,8 +3,8 @@ Algoritmo "semnome"
 Var
 
 controle, erro: inteiro
-nome, user, Duser, situacao: caractere
-matricula, passw, Dpassw, turma, DTNC: inteiro
+nome, user,passw, Dpassw, Duser, situacao: caractere
+matricula, turma, DTNC: inteiro
 media, n1, n2: real
 Inicio
  repita
@@ -91,7 +91,7 @@ Inicio
 
         enquanto (n1> 10) ou (n1 < 0) faca
       escreval ("Digite uma nota entre 0 e 10!")
-      escreva ("Digite a Nota 1")
+      escreva ("Digite a Nota 1: ")
           leia (n1)
       fimenquanto
 
